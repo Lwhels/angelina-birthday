@@ -1,0 +1,33 @@
+button.gif_button {
+    background-image: linear-gradient(#fd267a,#ff6036);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    width: height 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: opacity 0.15s;
+  }
+  button.gif_button:hover{
+    opacity: 0.8;
+  }
+  button.gif_button:active{
+    opacity: 0.5;
+  }
+  button.message_bar {
+    background-color: rgb(245, 241, 241);
+    color: gray;
+    border: none;
+    height: 30px;
+    width: 500px;
+    text-align: left;
+    border-radius: 100px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    text-indent: 10px;
+  }
+  img.tinder_logo{
+    height: 30px;
+    border-radius: 100px;
+    vertical-align: top;
+    padding-right: 10px;
+  }
