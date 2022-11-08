@@ -52,20 +52,19 @@ button.gif_button {
     color: rgb(158, 152, 152);
   }
   img.profile_picture{
-    display: inline-block;
     border-radius: 50%;
     height: 60px;
     margin-left: 160px;
     margin-bottom: 10px;
   }
   .back_arrow{
-    display: inline-block;
     height: 100px;
     margin-left: 20px;
   }
   .flag{
     margin-left: 175px;
-    height: 75px;
+    height: 70px;
+    margin-bottom: 5px;
   }
   p.name_tag{
     margin-left: 262px;
@@ -95,7 +94,7 @@ button.gif_button {
     border-radius: 5px;
     border: solid;
     width: 615px;
-    height: 975px;
+    height: 900px;
     padding-right: 10px;
     border-width: 5px;
 
