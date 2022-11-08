@@ -3,4 +3,7 @@ img.christmas_photo{
     border-radius: 50px;
 }
 
-body{background-color:rgb(0,0,0);background-image:url(http://www.zingerbugimages.com/backgrounds/colorful_holiday_lights_seamless_texture.jpg);background-position:top left;background-repeat:repeat;background-attachment:fixed;}
+body{
+    background-image: url("../images/Christmas_Tree.gif");
+    background-color: #ccc;
+}
