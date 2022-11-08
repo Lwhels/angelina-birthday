@@ -23,4 +23,5 @@ body {
   img{
     border-radius: 50px;
     height: 600px;
+    object-fit: cover;
   }

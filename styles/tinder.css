@@ -7,6 +7,7 @@ button.gif_button {
     cursor: pointer;
     font-weight: bold;
     transition: opacity 0.15s;
+    margin-left: 5px;
   }
   button.gif_button:hover{
     opacity: 0.8;
@@ -14,7 +15,7 @@ button.gif_button {
   button.gif_button:active{
     opacity: 0.5;
   }
-  button.message_bar {
+  .message_bar {
     background-color: rgb(245, 241, 241);
     color: gray;
     border: none;
@@ -24,10 +25,78 @@ button.gif_button {
     border-radius: 100px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
     text-indent: 10px;
+    margin-left: 5px;
+  }
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
   }
   img.tinder_logo{
     height: 30px;
     border-radius: 100px;
     vertical-align: top;
+    transition: opacity 0.15s;
+  }
+  .tinder_logo:hover{
+    opacity: 0.8;
+  }
+  .tinder_logo:active{
+    opacity: 0.5;
+  }
+  h1{
+    text-align: center;
+  }
+  p.match_message{
+    padding-left: 170px;
+    color: rgb(158, 152, 152);
+  }
+  img.profile_picture{
+    display: inline-block;
+    border-radius: 50%;
+    height: 60px;
+    margin-left: 160px;
+    margin-bottom: 10px;
+  }
+  .back_arrow{
+    display: inline-block;
+    height: 100px;
+    margin-left: 20px;
+  }
+  .flag{
+    margin-left: 175px;
+    height: 75px;
+  }
+  p.name_tag{
+    margin-left: 262px;
+    margin-top: -10px;
+  }
+
+  div.top_message{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    width: 600px;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+
+  div.body_message{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    height: 700px;
+    width: 600px;
+    border-radius: 5px;
+    margin-left: 10px;
+   
+  }
+  div.input_field{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  div.phone_view{
+    border-radius: 5px;
+    border: solid;
+    width: 615px;
+    height: 975px;
     padding-right: 10px;
+    border-width: 5px;
+
   }
