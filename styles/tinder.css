@@ -8,7 +8,6 @@ button.gif_button {
     font-weight: bold;
     transition: opacity 0.15s;
     margin-left: 5px;
-    margin-top: 8px;
   }
   button.gif_button:hover{
     opacity: 0.8;
@@ -38,7 +37,6 @@ button.gif_button {
     border-radius: 100px;
     vertical-align: top;
     transition: opacity 0.15s;
-    margin-top: 2px;
   }
   .tinder_logo:hover{
     opacity: 0.8;
@@ -92,6 +90,7 @@ button.gif_button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-top: 10px;
     margin-left: 7px;
   }
