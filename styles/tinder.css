@@ -32,7 +32,7 @@ button.gif_button {
   select:focus {
     outline: none;
   }
-  img.tinder_logo{
+  .tinder_logo{
     height: 30px;
     border-radius: 100px;
     vertical-align: top;

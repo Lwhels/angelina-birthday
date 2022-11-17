@@ -6,8 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/christmas.css">
     <title>Christmas</title>
+    <script>
+        function validateInput(){
+            name = document.querySelector('input[name="person"]:checked').value
+        if (
+          name ==
+          3
+        ) {
+          alert("that's right!");
+          return true;
+        } else {
+          window.history.back();
+          alert(name);
+          return false;
+        }
+      }
+    </script>
 </head>
 <body>
+    <h1>I'm Glad You Remembered, From Now On The Questions Only Get Harder</h1>
     <img class = "christmas_photo" src="images/Christmas_Laugh.jpeg" alt="picture of you laughing at chirstmas time">
+    <div>
+    <form onsubmit="return validateInput()" action="grid.html">
+        Who Was There For Our First Christmas Together? <br>
+        <input type="radio" id="Kimi" name="person" value="1">
+        <label for="html">Kimi</label><br>
+        <input type="radio" id="Uncle_Stan" name="person" value="2">
+        <label for="css">Uncle Stan</label><br>
+        <input type="radio" id="Alex" name="person" value="3">
+        <label for="javascript">Alex</label><br>
+        <input type="radio" id="Shaun" name="person" value="4">
+        <label for="javascript">Shaun</label><br><br>
+        <input type="submit">
+
+    </form>
+</div>
 </body>
 </html>

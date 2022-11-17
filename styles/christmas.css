@@ -1,9 +1,12 @@
 img.christmas_photo{
-    height: 600px;
+    height: 75vh;
     border-radius: 50px;
 }
 
 body{
-    background-image: url("../images/Christmas_Tree.gif");
-    background-color: #ccc;
+    background-color: bisque;
+    text-align: center;
+}
+form{
+    display: inline-block;
 }
