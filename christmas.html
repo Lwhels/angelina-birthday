@@ -1,45 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/christmas.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/christmas.css" />
     <title>Christmas</title>
     <script>
-        function validateInput(){
-            name = document.querySelector('input[name="person"]:checked').value
-        if (
-          name ==
-          3
-        ) {
+      function validateInput() {
+        name = document.querySelector('input[name="person"]:checked').value;
+        if (name == 3) {
           alert("that's right!");
           return true;
         } else {
-          window.history.back();
-          alert(name);
+          alert("they weren't there");
           return false;
         }
       }
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <h1>I'm Glad You Remembered, From Now On The Questions Only Get Harder</h1>
-    <img class = "christmas_photo" src="images/Christmas_Laugh.jpeg" alt="picture of you laughing at chirstmas time">
+    <img
+      class="christmas_photo"
+      src="images/Christmas_Laugh.jpeg"
+      alt="picture of you laughing at chirstmas time"
+    />
     <div>
-    <form onsubmit="return validateInput()" action="grid.html">
-        Who Was There For Our First Christmas Together? <br>
-        <input type="radio" id="Kimi" name="person" value="1">
-        <label for="Kimi">Kimi</label><br>
-        <input type="radio" id="Uncle_Stan" name="person" value="2">
-        <label for="Uncle_Stan">Uncle Stan</label><br>
-        <input type="radio" id="Alex" name="person" value="3">
-        <label for="Alex">Alex</label><br>
-        <input type="radio" id="Shaun" name="person" value="4">
-        <label for="Shaun">Shaun</label><br><br>
-        <input type="submit">
-
-    </form>
-</div>
-</body>
+      <form onsubmit="return validateInput()" action="SF.html">
+        Who Was There For Our First Christmas Together? <br />
+        <input type="radio" id="Kimi" name="person" value="1" />
+        <label for="Kimi">Kimi</label><br />
+        <input type="radio" id="Uncle_Stan" name="person" value="2" />
+        <label for="Uncle_Stan">Uncle Stan</label><br />
+        <input type="radio" id="Alex" name="person" value="3" />
+        <label for="Alex">Alex</label><br />
+        <input type="radio" id="Shaun" name="person" value="4" />
+        <label for="Shaun">Shaun</label><br /><br />
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
 </html>

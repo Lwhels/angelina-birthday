@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/christmas.css">
+    <title>Christmas</title>
+    <script>
+        function validateInput(){
+          const option1 = document.querySelector('#option1:checked') !== null;
+          const option2 = document.querySelector('#option2:checked') !== null;
+          const option3 = document.querySelector('#option3:checked') !== null;
+          const option4 = document.querySelector('#option4:checked') !== null;
+          const option5 = document.querySelector('#option5:checked') !== null;
+        if (
+          option1 && option2 && option3 && option4 && option5
+        ) {
+          alert("that's right!");
+          return true;
+        } else {
+          alert("you have not selected all the correct answers");
+          return false;
+        }
+      }
+    </script>
+</head>
+<body>
+    <h1>Final Question, Don't Fuck it up</h1>
+    <img class = "christmas_photo" src="images/Angelina_And_Mom.jpeg" alt="you and mom">
+    <div>
+    <form onsubmit="return validateInput()" action="video.html">
+        Which of the Following are Reasons Why I Love You? <br>
+        <input type="checkbox" id="option1" name="option1" value="Bike">
+        <label for="option1"> Your smile (dimples)</label><br>
+        <input type="checkbox" id="option2" name="option2" value="Car">
+        <label for="option2"> Your laugh (cute as shit)</label><br>
+        <input type="checkbox" id="option3" name="option3" value="Car">
+        <label for="option3"> How you've been my best friend for two years</label><br>
+        <input type="checkbox" id="option4" name="option4" value="Car">
+        <label for="option4">Your sense of humor(funny)</label><br>
+        <input type="checkbox" id="option5" name="option5" value="Boat">
+        <label for="option5"> Your undying love of pets </label><br><br>
+        <input type="submit">
+
+    </form>
+</div>
+</body>
+</html>

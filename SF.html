@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/christmas.css" />
+    <title>SF</title>
+    <script>
+      function validateInput() {
+        response = document.querySelector('input[name="person"]:checked').value;
+        if (response == 1) {
+          alert("that's right!");
+          return true;
+        } else {
+          alert("please select an answer");
+          return false;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Good Recollection!</h1>
+    <img
+      class="christmas_photo"
+      src="images/SF_Trip.jpeg"
+      alt="sf picture"
+    />
+    <div>
+      <form onsubmit="return validateInput()" action="Boba.html">
+        How Much Did Our Sandwhiches Cost in SF? <br />
+        <input type="radio" id="Too_Much" name="response" value="1" />
+        <label for="too_much">Too Much</label><br /><br />
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>

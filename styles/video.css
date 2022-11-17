@@ -1,0 +1,17 @@
+body{
+    background-color: bisque;
+}
+div{
+    background-image: url("../images/tv.png");
+    height: 80vh; 
+    width: 100vw;
+    text-align: center;
+    vertical-align: top;
+}
+iframe{
+margin-top: 112px;
+height: 60vh;
+width: 60vw;
+border-radius: 10px;
+margin-right: 240px;
+}

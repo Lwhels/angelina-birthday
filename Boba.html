@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/christmas.css">
+    <title>Boba</title>
+    <script>
+        function validateInput(){
+            name = document.querySelector('input[name="person"]:checked').value
+        if (
+          name ==
+          2
+        ) {
+          alert("good job, I'm glad");
+          return true;
+        } else {
+          alert("shameful");
+          return false;
+        }
+      }
+    </script>
+</head>
+<body>
+    <h1>So True, Now Tell Me About My Bopa Preferences</h1>
+    <img class = "christmas_photo" src="images/Boba_Trip.jpeg" alt="boba photo">
+    <div>
+    <form onsubmit="return validateInput()" action="Mom.html">
+        What Fruit is a Part of My Boba Order? <br>
+        <input type="radio" id="passionFruit" name="person" value="1">
+        <label for="passionFruit">passionfruit</label><br>
+        <input type="radio" id="peach" name="person" value="2">
+        <label for="peach">peach</label><br>
+        <input type="radio" id="strawberry" name="person" value="3">
+        <label for="strawberry">strawberry</label><br>
+        <input type="radio" id="mango" name="person" value="4">
+        <label for="mango">mango</label><br><br>
+        <input type="submit">
+
+    </form>
+</div>
+</body>
+</html>
